@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS project</title>
+    <link rel="stylesheet" href="CSS/Style.CSS">
+   
+    <script src="main.js"> </script> 
+  
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    
+    <div class="Head"> 
+        <div class="H1"></div>
+        <div class="H2"></div>
+        <div class="H3"></div>
+        <div class="H4"></div>
+        <h2> BRITISH COUNCIL</h2>
+        <div class="H5"></div>
+        <div class="H6">LearnEnglish</div>
+
+        <a class="H7"  >Home
+            
+                
+          
+        </a>
+
+
+        <div class="menu-container">
+            <div class="button">Menu
+             <img src="menu bar.png"  alt="" class="bar" id="b1">
+               
+            </div>
+
+            <div class="close">
+                <img src="Close.png" alt="" id="c1"> 
+            </div>
+
+
+            <script>
+                $(document).ready(function(){
+                $('.button').click(function(){
+                if($(this).hasClass('expand')){
+                    $('ul.menu').slideUp();
+                    $(this).removeClass('expand');
+                } else{
+                    $(this).addClass('expand');
+                    setTimeout(function(){
+                        $('.bar').addClass('expand');
+                        $('ul.menu').stop().slideDown();
+                    },100);
+                }
+
+                  });
+
+                });
+
+              
+               
+               
+              
+
+          $(document).ready(function(){
+          
+                    $('.OC').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu2').slideUp();
+                      
+                        
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                            $('ul.menu2').stop().slideDown();
+                            $('ul.menu3').slideUp();
+                            $('ul.menu4').slideUp();
+                            $('ul.menu5').slideUp();
+                            $('ul.menu6').slideUp();
+                            $('ul.menu7').slideUp();
+                            $('ul.menu8').slideUp();
+                            
+                        },100);
+                    }
+    
+            });
+    
+            });
+
+            
+
+
+            $(document).ready(function(){
+                    $('.SK').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu3').slideUp();
+                
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                            $('ul.menu3').stop().slideDown();
+                            $('ul.menu2').slideUp();
+                            $('ul.menu4').slideUp();
+                            $('ul.menu5').slideUp();
+                            $('ul.menu6').slideUp();
+                            $('ul.menu7').slideUp();
+                            $('ul.menu8').slideUp();
+                        },100);
+                    }
+    
+            });
+    
+            });
+
+
+            $(document).ready(function(){
+                    $('.GR').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu4').slideUp();
+                
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                            $('ul.menu4').stop().slideDown();
+                            $('ul.menu3').slideUp();
+                            $('ul.menu2').slideUp();
+                            $('ul.menu5').slideUp();
+                            $('ul.menu6').slideUp();
+                            $('ul.menu7').slideUp();
+                            $('ul.menu8').slideUp();
+                        },100);
+                    }
+    
+            });
+    
+            });
+
+
+            $(document).ready(function(){
+                    $('.VO').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu5').slideUp();
+                
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                            $('ul.menu5').stop().slideDown();
+                            $('ul.menu4').slideUp();
+                            $('ul.menu3').slideUp();
+                            $('ul.menu2').slideUp();
+                            $('ul.menu6').slideUp();
+                            $('ul.menu7').slideUp();
+                            $('ul.menu8').slideUp();
+                        },100);
+                    }
+    
+            });
+    
+            });
+
+
+            $(document).ready(function(){
+                    $('.BE').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu6').slideUp();
+                
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                            $('ul.menu6').stop().slideDown();
+                            $('ul.menu4').slideUp();
+                            $('ul.menu3').slideUp();
+                            $('ul.menu2').slideUp();
+                            $('ul.menu5').slideUp();
+                            $('ul.menu7').slideUp();
+                            $('ul.menu8').slideUp();
+                        },100);
+                    }
+    
+            });
+    
+            });
+
+
+                    
+            $(document).ready(function(){
+               
+                    $('.GE').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu7').slideUp();
+                
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                            $('ul.menu7').stop().slideDown();
+                            $('ul.menu4').slideUp();
+                            $('ul.menu3').slideUp();
+                            $('ul.menu2').slideUp();
+                            $('ul.menu5').slideUp();
+                            $('ul.menu6').slideUp();
+                            $('ul.menu8').slideUp();
+                        },100);
+                    }
+    
+            });
+    
+            });
+
+            
+
+           
+           
+              
+           
+          
+
+
+            $(document).ready(function(){
+                    $('.EL').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu8').slideUp();
+                       
+                        
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                            $('ul.menu8').stop().slideDown();
+                            $('ul.menu4').slideUp();
+                            $('ul.menu3').slideUp();
+                            $('ul.menu2').slideUp();
+                            $('ul.menu5').slideUp();
+                            $('ul.menu6').slideUp();
+                            $('ul.menu7').slideUp();
+                        },100);
+                    }
+    
+            });
+    
+            });
+
+
+            
+            $(document).ready(function(){
+                    $('.home').click(function(){
+                    if($(this).hasClass('expand')){
+                        $('ul.menu3').slideUp();
+                        $('ul.menu2').slideUp();
+                        $('ul.menu4').slideUp();
+                        $('ul.menu5').slideUp();
+                        $('ul.menu6').slideUp();
+                        $('ul.menu7').slideUp();
+                        $('ul.menu8').slideUp();
+                
+                        $(this).removeClass('expand');
+                    } else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.bar').addClass('expand');
+                           
+                        });
+                    }
+    
+            });
+    
+            });
+
+
+            </script>
+                
+
+            
+            <ul class="menu">
+                <li class="home"> <a href="#" >Home</a></li>
+                <li class="OC" > 
+                <a href="#" >Online Courses
+                    <div class="r9" id="i1"></div>
+                    <div class="l9" id="i2"></div>
+                    <ul class="menu2">
+                        <li > <a href="#">Live courses</a>   </li>
+                        <li> <a href="#">Self-study courses</a> </li>
+                        <li > <a href="#">Personal tutoring</a></li>
+                        <li >  <a href="#">IELTS Preperation</a></li>
+                    </ul>
+                </a>
+            </li>
+
+                <li class="SK"> <a href="#">Skills
+                    <div class="r10"></div>
+                    <div class="l10"></div>
+                    <ul class="menu3">
+                        <li> <a href="#"> Listening</a></li>
+                        <li>  <a href="#">Reading</a></li>
+                        <li > <a href="#">Writing</a></li>
+                        <li >  <a href="#">Reading</a></li>
+
+
+                    </ul>
+                </a>
+            </li>
+                <li class="GR"> <a href="#" >Grammer
+                    <div class="r11"></div>
+                    <div class="l11"></div>
+                    <ul class="menu4">
+                        <li> <a href="#"> A1-A2 grammar</a></li>
+                        <li> <a href="#">B1-B2 grammar</a> </li>
+                        <li > <a href="#">C1 grammar</a> </li>
+                        <li > <a href="#"> English grammar reference</a> </li>
+
+                    </ul>
+                </a>
+            </li>
+                <li class="VO"> <a href="#">Vocabulary
+                    <div class="r12"></div>
+                    <div class="l12"></div>
+                    <ul class="menu5">
+                        <li> <a href="#">A1-A2 vocabulary</a> </li>
+                        <li> <a href="#">B1-B2 vocabulary</a></li>
+                        <li ><a href="#"> Vocabulary games</a></li>
+
+
+                    </ul>
+                </a>
+            </li>
+                <li class="BE"> <a href="#">Buisness English
+                    <div class="r13"></div>
+                    <div class="l13"></div>
+                    <ul class="menu6">
+                        <li> <a href="#">Coporate training and assessments</a> </li>
+                        <li> <a href="#">Business magazine</a> </li>
+                        <li > <a href="#">Podcasts for professionals</a> </li>
+                        <li > <a href="#">English for emails</a> </li>
+                        <li > <a href="#"> You,re Hired</a></li>
+
+                    </ul>
+                </a>
+            </li>
+                <li class="GE"> <a href="#">General English
+                    <div class="r14"></div>
+                    <div class="l14"></div>
+                    <ul class="menu7">
+                        <li> <a href="#">Video zone</a> </li>
+                        <li> <a href="#">Audio zone</a></li>
+                        <li> <a href="#">Magazine zone</a> </li>
+                        <li ><a href="#">Story zone</a> </li>
+                        <li ><a href="#">Video series</a> </li>
+                        <li ><a href="#"> Audio series</a></li>
+
+                    </ul>
+                </a>
+            </li>
+                <li class="EL"> <a href="#">English Levels
+                    <div class="r15"></div>
+                    <div class="l15"></div>
+                    <ul class="menu8">
+                        <li > <a href="#">Online English level test</a> </li>
+                        <li>  <a href="#">Understand Your English level</a>  </li>
+                        <li > <a href="#">Improve Your English level</a> </li>
+
+
+                    </ul>
+                </a></li>
+            </ul>
+        </div>
+
+        
+
+        
+        
+        <a  class="H9" id="h9"> OnlineCourses
+            <div class="r"> </div>
+            <div class="l"></div>
+            <ul class="H10" id="h10">
+               <li > Live courses  </li>
+               
+                <li> Self-study courses</li>
+                <li > Personal tutoring</li>
+                <li > IELTS Preperation</li>
+            </ul>    
+    
+        </a>
+
+       
+        <a class="H11">Skills
+            <div class="r2"> </div>
+            <div class="l2"></div>
+            <ul class="H12">
+                <li> Listening</li>
+                <li> Reading</li>
+                <li > Writing</li>
+                <li >  Reading</li>
+
+            </ul>    
+
+
+        </a>
+
+
+        <a class="H13">Grammar
+            <div class="r3"> </div>
+            <div class="l3"></div>
+            <ul class="H14">
+                <li> A1-A2 grammar</li>
+                <li> B1-B2 grammar</li>
+                <li > C1 grammar</li>
+                <li >  English grammar reference</li>
+
+            </ul>    
+
+
+        </a>
+
+
+        <a class="H15">Vocabulary
+            <div class="r4"> </div>
+            <div class="l4"></div>
+            <ul class="H16">
+                <li> A1-A2 vocabulary</li>
+                <li> B1-B2 vocabulary</li>
+                <li > Vocabulary games</li>
+                
+            </ul>    
+
+
+        </a>
+
+
+        <a class="H17">Business English
+            <div class="r5"> </div>
+            <div class="l5"></div>
+            <ul class="H18">
+                <li> Coporate training and assessments</li>
+                <li> Business magazine</li>
+                <li > Podcasts for professionals</li>
+                <li > English for emails</li>
+                <li > You,re Hired</li>
+            
+            </ul>    
+
+
+        </a>
+         
+
+        <a class="H19"> General English
+            <div class="r6"> </div>
+            <div class="l6"></div>
+            <ul class="H20">
+               <li>   Video zone   </li>
+                <li> Audio zone</li>
+                <li > Magazine zone</li>
+                <li > Story zone</li>
+                <li > Video series</li>
+                <li > Audio series</li>
+               
+                
+            </ul>    
+
+
+        </a>
+
+        <a class="H21">English Levels
+            <div class="r7"> </div>
+            <div class="l7"></div>
+            <ul class="H22">
+                <li class="L"> Online English level test</li>
+                <li> Understand Your English level </li>
+                <li > Improve Your English level</li>
+            
+            </ul>    
+
+
+        </a>
+
+        
+           
+            
+        </div>
+        
+
+
+    </div>
+    
+    
+</head>
+<body>
+    <div>
+
+    <div class="H23">English Levels  <span class="H24"> > </span></div>
+    <div class="H25">Online English Level Test</div>
+      <div class="H26">Online English Level test</div>
+   </div>
+
+   <div>
+    <img src="Study 2.avif" alt="" class="H27">
+   </div>
+
+   <div class="H28">
+    <div class="H29">
+        <img src="correct.png" alt="" class="H30">
+         <a class="H31" href="https://learnenglish.britishcouncil.org/english-levels/online-english-level-test">Online English Level test</a> 
+        <img src="correct.png" alt="" class="H32">
+        <a class="H33" href="https://learnenglish.britishcouncil.org/english-levels/understand-your-english-level"> Understand Your English level</a>
+        <img src="correct.png" alt="" class="H34">
+        <a class="H35" href="https://learnenglish.britishcouncil.org/english-levels/improve-your-english-level"> Improve Your English level</a>
+        <img src="correct.png" alt="" class="H36">
+        <a class="H36" href="https://learnenglish.britishcouncil.org/english-levels/find-resources-your-level">Find more Resources</a>
+        
+
+    </div>  
+
+  </div>
+
+  
+
+  <div class="H37"> How to access the Test</div>
+  <div class="H38"> The level test is available to all users with a free account on LearnEnglish.</div>
+
+  <div class="H39">
+    <img src="Study.jpg" alt="" class="H40">
+    <div class="H41"> Our online self study ,live classes and one to one courses with personal tutors help you improve your English and achieve your goal.</div>
+    <div class="H42">
+        <a href="https://learnenglish.britishcouncil.org/online-courses?promo_id=oc&promo_name=online-courses&promo_creative=sidebar&promo_position=level-test" class="H43">Online English Courses</a>
+    </div>
+  </div>
+
+  <div class="H44">
+    <div class="H45">
+        <p class="H46">Please <a href="https://learnenglish.britishcouncil.org/user/login?destination=/english-levels/online-english-level-test" class="H47">Log in</a> or <a href="https://learnenglish.britishcouncil.org/user/register?destination=/english-levels/online-english-level-test" class="H48">Register</a> to access the level test.</p>
+    </div>
+  </div>
+
+  <div class="H49">
+    <div class="H50">
+        <img src="correct.png" alt="" class="H51">
+        <a href="https://learnenglishkids.britishcouncil.org/" class="H52"> Learn English for children aged 5 to 12</a>
+        <img src="correct.png" alt="" class="H53">
+        <a href="https://learnenglishteens.britishcouncil.org/" class="H54"> Learn English for Teens aged 13 to 17</a>
+        <img src="correct.png" alt="" class="H55">
+        <a href="https://www.teachingenglish.org.uk/" class="H56">Teaching English for teachers and teacher educator</a>
+    </div>
+  </div>
+
+  <div class="H57"> Discover your current English level</div>
+  <div class="H58"> This online level test will give you an approximate  indication of your English proficiency level. You can use the result to help you find online courses or learning content on our website that is appropriate for your English language ability.</div>
+  
+  
+  <div class="H61">Take our multiple choice test in minutes</div>
+
+  <div class="H62"> This test is designed to assess your understanding of English grammar, vocabulary and phrasing. Each question is in the format of multiple choice and you will have a choice of three possible answers.</div>
+  
+  <div class="H63">You will be required to read each question carefully and select the answer that you think is correct. At the end of the test, you will be given an estimation of your current level of English proficiency.</div>
+
+
+  <div class="H64">
+    <div class="H65">
+        <p class="H66">Help</p>
+        <img src="correct.png" alt="" class="H67">
+        <a href="https://learnenglish.britishcouncil.org/english-levels/online-english-level-test" class="H68">Free online English test</a>
+        <img src="correct.png" alt="" class="H69">
+        <a href="https://learnenglish.britishcouncil.org/newsletter?promo_id=nl01&promo_name=newsletter&promo_creative=sidebar-promo&promo_position=rightsidebar" class="H70">Sign up for our newsletter</a>
+        <img src="correct.png" alt="" class="H71">
+        <a href="https://learnenglish.britishcouncil.org/frequently-asked-questions" class="H72">Frequently asked questions</a>
+        <img src="correct.png" alt="" class="H73">
+        <a href="https://learnenglish.britishcouncil.org/getting-started" class="H74">Getting started</a>
+
+
+    </div>
+  </div>
+    
+ 
+ 
+</body>
+<footer> 
+    <div class="H75"> Follow us</div>
+    <img src="TikTok 2.png" alt="" class="Tiktok">
+    <a href="" class="H76"> TikTok</a>
+    <img src="Facebook.png" alt="" class="Facebook">
+    <a href="https://www.facebook.com/LearnEnglish.BritishCouncil" class="H77"> Facebook</a>
+    <img src="Twitter.png" alt="" class="Tiwitter">
+    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FLearnEnglish_BC" class="H78"> Twitter</a>
+    <img src="Instagram.png" alt="" class="Instagram">
+    <a href="https://www.instagram.com/britishcouncilenglishonline/" class="H79"> Instagram</a>
+
+    <div class="H80">Contact</div>
+    <img src="Whatsapp.png" alt="" class="Whatsapp">
+    <a href="" class="H81"> (+963) 0923888123</a>
+
+    <a href="https://www.britishcouncil.org/terms" class="H82"> Terms of use</a>
+    <a href= "https://www.britishcouncil.org/accessibility" class ="H83">Accessbility</a>
+    <a href="https://www.britishcouncil.org/privacy-cookies" class="H84">Privacy and cookies</a>
+    <a href="https://learnenglish.britishcouncil.org/sitemap" class="H85">Site map</a>
+    <a href="https://englishonline.britishcouncil.org/affiliate-marketing-programme/?country=le" class="H86">Affiliate program</a>
+
+    <img src="Copyright 3.png" alt="" class="Copyright">
+    <div class="H87"> British Council</div>
+    <div class="H88">The United Kingdom's international organisation for cultural relations and educational opportunities.</div>
+</footer>
+
+    
+
+
+
+</html>
